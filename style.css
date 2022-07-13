@@ -1,8 +1,64 @@
-#app {
+/*#app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}*/
+
+main {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tittle {
+    text-align: center;
+    color: seagreen;
+  }
+  
+h1 {
+      margin-bottom: 0.25rem;
+      font-size: 2.5rem;
+      color: ;
+    }  
+
+#btn-one {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;  
+}
+
+button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 100px;
+    min-width: 130px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: steelblue;
+}
+
+#number-gacha {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 4rem;
+  font-family: "Roboto";
+  color: blueviolet;
+}
+
+#quantity {
+  padding: 4rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.gem,.fate {
+  width: 100px;
 }

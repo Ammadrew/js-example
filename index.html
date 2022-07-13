@@ -5,12 +5,22 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
   </head>
   <body>
-    <div id="app"></div>
-    <p>Hello from Andrew</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum vitae cumque quis commodi recusandae ipsum voluptas dolor similique assumenda numquam voluptatibus, voluptatum magnam, quae inventore? Sint quod exercitationem tenetur?</p>
-    <button onclick="alert('Hi')">Say Something!</button>
-    <script type="module" src="/main.js"></script>
+    <main>
+      <div class="tittle">
+        <h1>Good luck gacha!</h1>
+        <p>Sell your soul for Salt!</p>
+      </div>
+      <div id="number-gacha">0</div>
+      <div class="control btn-wrapper">
+        <button id="btn-one">Roll x1</button>
+        <button id="btn-ten">Roll x10</button>
+      </div>
+      <div id="quantity"></div>
+    </main>
+    <!--script type="module" src="/main.js"></script -->
+    <script type="module" src="app.js"></script>
   </body>
 </html>
